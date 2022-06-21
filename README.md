@@ -9,12 +9,13 @@ PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 ```
 
-## Latest GCamGOPrebuilt packages (Experimental)
+## No AUX
 ```
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V2
+    GCamGOPrebuilt-NoAux
 ```
 
 | Source |
 | ------ |
 | [dev-greatness](https://www.celsoazevedo.com/files/android/google-camera/dev-greatness/) |
+| [dev-shamim](https://www.celsoazevedo.com/files/android/google-camera/dev-shamim/) |

@@ -8,13 +8,13 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["Camera2", "GCamGOPrebuilt-V2", "Snap"],
+	overrides: ["Camera2", "GCamGOPrebuilt-NoAux", "Snap"],
 }
 
 android_app_import {
-	name: "GCamGOPrebuilt-V2",
+	name: "GCamGOPrebuilt-NoAux",
 	owner: "google",
-	apk: "GCamGOPrebuilt-V2.apk",
+	apk: "GCamGOPrebuiltNoAux.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
